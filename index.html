@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="main">
+        <div class="hero">
+            <div class="nav">
+                <a href="#link">Sumit Kumar</a>
+                <a href="" id="more">More</a>
+            </div>
+
+            <div class="name">
+                <h1 id="sumit">SUMIT</h1>
+                <div id="kumarup"></div>
+                <h1 id="kumar">KUMAR</h1>
+                <P id="content">Curiosity drives me, momentum defines me. I thrive on learning, building, and refining
+                    ideas into real results.<br> I adapt
+                    fast, take ownership, and enjoy challenges that push my skills forward.<br>I don’t chase shortcuts—I
+                    focus on growth,
+                    clarity, and meaningful work that leaves an impact.</P>
+                <div class="breaker"></div>
+            </div>
+
+            <div class="breaker1"></div>
+
+            <div id="footer">
+                <div class="info">
+                    <div class="information">About</div>
+                    <div class="information">Contact</div>
+                    <div class="information">Social Media</div>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-down-long" id="arrow1"></i>
+                    <i class="fa-solid fa-down-long" id="arrow2"></i>
+                    <i class="fa-solid fa-down-long" id="arrow3"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="custom-cursor"></div>
+
     <script src="script.js"></script>
+    <script>
+        const cursor = document.querySelector(".custom-cursor");
+
+        document.addEventListener("mousemove", (e) => {
+            cursor.style.left = e.clientX + "px";
+            cursor.style.top = e.clientY + "px";
+        });
+    </script>
+
 </body>
+
 </html>
