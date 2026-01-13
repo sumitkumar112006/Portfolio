@@ -8,3 +8,6 @@ This is my portfolio
 3. CSS
 4. GIT / Github
 5. Python
+
+# Conflict 
+ => at main and feature branch.
