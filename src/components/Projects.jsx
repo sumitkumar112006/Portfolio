@@ -21,7 +21,7 @@ const projects = [
       'A modern portfolio website showcasing my work, skills, and journey as a developer with smooth animations.',
     image: portfolioImg,
     tags: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
-    link: 'https://sumitkumar112006.github.io/Portfolio',
+    link: 'https://portfolio-gamma-bay-66.vercel.app/',
     color: '#4D96FF',
   },
   {
